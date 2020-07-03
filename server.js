@@ -1,3 +1,10 @@
+module.exports = app();
+module.exports = server();
+module.exports = io();
+
+
+
+
 const path = require('path');
 const http = require('http');
 const express = require('express');
