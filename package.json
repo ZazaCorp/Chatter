@@ -4,7 +4,7 @@
   "description": "Chatt application",
   "main": "server.js",
   "scripts": {
-    "test": "circleci",
+    "test": "jest",
     "start": "node server.js",
     "dev": "nodemon server"
   },
