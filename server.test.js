@@ -8,7 +8,7 @@ const server = require('./server');
 var io = require('socket.io-client')
   , io_server = require('socket.io').listen(3000);
 
-describe('basic socket.io example', function() {
+describe('socket.io', function() {
 
   var socket;
 
