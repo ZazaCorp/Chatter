@@ -1,3 +1,10 @@
+const app = require('./server');
+const server = require('./server');
+const io = require('./server');
+
+
+
+
 var io = require('socket.io-client')
   , io_server = require('socket.io').listen(3000);
 
