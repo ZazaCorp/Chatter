@@ -6,7 +6,7 @@ const server = require('./server');
 
 
 var io = require('socket.io-client')
-  , io_server = require('socket.io').listen(3000);
+  , io_server = require('socket.io').listen(3001);
 
 describe('socket.io', function() {
 
@@ -14,7 +14,7 @@ describe('socket.io', function() {
 
   beforeEach(function(done) {
     // Setup
-    socket = io.connect('http://localhost:3000', {
+    socket = io.connect('http://localhost:3001', {
       'reconnection delay' : 0
       , 'reopen delay' : 0
       , 'force new connection' : true
